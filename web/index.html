@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<title>Website Design, Marketing and Online Competitor Assessment</title>
+
+<meta name="description" content="Hopefully use this to rapidly assess a website for design improvements, marketing opportunities, and compare to top competitors to create a roadmap of what to improve to acheive growth goals.">
+
+<link rel="preload" as="style" href="//stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="preload" as="style" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+<link rel="preload" as="style" href="//fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap">
+<link rel="preload" as="style" href="style.css">
+
+<link rel="preload" as="script" href="//code.jquery.com/jquery.min.js">
+<link rel="preload" as="script" href="//stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+<link rel="preload" as="script" href="//stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
+<link rel="preload" as="script" href="script.js">
+
+<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<a href="#main">Skip to main</a>
+
+<div id="body-inner">
+  <section id="toolbar">
+
+  </section>
+
+  <section id="wrapper" class="oc-wrapper oc-wrapper-left oc-off">
+    <section id="left-sidebar oc oc-left">
+      <div class="container">
+
+      </div>
+    </section>
+
+    <section id="main" role="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <form id="company" name="company" enctype="multipart/form-data" action="data.php">
+              <h1>Enter some information to get started…</h1>
+
+              <div class="field field-text field-domain">
+                <label for="company-domain">Domain name?</label>
+                <input type="text" name="company-domain" id="company-domain" pattern="(.*\.)?.*\..*" title="enter the domain name we're going to assess, something like… example.com">
+              </div>
+
+              <div class="field field-text field-contact">
+                <label for="company-contact">Contact name?</label>
+                <input type="text" name="company-contact" id="company-contact" title="enter the contact name we're going to email the assessment and proposal to…">
+              </div>
+
+              <div class="field field-text field-coname">
+                <label for="company-coname">Company name?</label>
+                <input type="text" name="company-coname" id="company-coname" title="enter the contact name we're going to email the assessment and proposal to…">
+              </div>
+
+              <fieldset>
+                <legend>Locations</legend>
+                <div class="fg fg-multiple">
+                  <div class="fg-multiple--item">
+                    <a href="#" class="fg-multiple--sort">
+                      <i class="fa fa-move"></i>
+                    </a>
+
+                    <div class="fg fg-address">
+
+                    </div>
+
+                    <a href="#" class="fg-multiple--remove">
+                      <i class="fa fa-close"></i>
+                    </a>
+                  </div>
+                  <div class="fg-actions">
+                    <button class="fg-add">Add Another</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="footer">
+    <div class="container">
+
+    </div>
+  </section>
+</div>
+
+<script src="//code.jquery.com/jquery.min.js" async defer></script>
+<script src="//stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" async defer></script>
+<script src="//stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" async defer></script>
+<script src="script.js" async defer></script>
+</body>
+</html>
